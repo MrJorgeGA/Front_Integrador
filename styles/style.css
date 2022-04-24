@@ -1,0 +1,9 @@
+.conferencia {
+    position: absolute; 
+    top: 55%; 
+    left: 60%
+}
+
+.oscuro {
+    filter: brightness(50%)
+}
