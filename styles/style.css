@@ -7,3 +7,7 @@
 .oscuro {
     filter: brightness(50%)
 }
+
+.interlineado {
+    line-height: 2rem;
+}
