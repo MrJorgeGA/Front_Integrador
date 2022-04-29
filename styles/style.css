@@ -22,3 +22,20 @@
     object-fit: cover; 
     min-height: 320px;
 }
+    
+    @media (max-width: 767px) {
+        .oradores {
+            display: none;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .oradores-small {
+        display: none;
+        }
+    }
+    @media (max-width: 991px) {
+        .barra-fixed {
+            display: none;
+        }
+    }

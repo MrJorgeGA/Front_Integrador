@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #333a40;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top barra-fixed" style="background-color: #333a40;">
           <div class="container-fluid" style="margin-right: 5%; margin-left: 5%;">
             <a class="navbar-brand" href="#">
               <img src="/images/codoacodo.png" alt="" width="110" class="d-inline-block align-text-middle">
@@ -147,8 +147,9 @@
     </div>
 
     <div id="oradores" class="container entrar">
-        <p class="text-center text-uppercase">conoce a los</p>
-        <h2 class="text-center text-uppercase" style="margin-top: -20px;">oradores</h2>
+      <p class="text-center text-uppercase">conoce a los</p>
+      <h2 class="text-center text-uppercase" style="margin-top: -20px;">oradores</h2>
+      <div class="oradores">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100">
@@ -202,7 +203,79 @@
               </div>
             </div>
         </div>
+      </div>
+      <div class="oradores-small">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active justify-content-center">
+              <div class="card" style="margin: auto; margin-bottom: 10%;">
+                <div class="ratio ratio-1x1">
+                  <img src="images/ada.jpeg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <span class="badge bg-secondary">Negocios</span> <span class="badge bg-danger">Danger</span>
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <p class="card-text interlineado">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus nibh dolor, eleifend at dui ut, pretium semper mi. 
+                    Mauris laoreet vel nisl eget molestie. Maecenas purus magna, 
+                    venenatis vel tellus eget, accumsan commodo ante.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="margin: auto; margin-bottom: 10%">
+                <div class="ratio ratio-1x1">
+                  <img src="images/steve.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">JavaScript</span> <span class="badge bg-info text-dark">React</span>
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <p class="card-text interlineado">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus nibh dolor, eleifend at dui ut, pretium semper mi. 
+                    Mauris laoreet vel nisl eget molestie. Maecenas purus magna, 
+                    venenatis vel tellus eget, accumsan commodo ante.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item justify-content-center">
+              <div class="card" style="margin: auto; margin-bottom: 10%">
+                <div class="ratio ratio-1x1">
+                  <img src="images/bill.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">JavaScript</span> <span class="badge bg-info text-dark">React</span>
+                  <h5 class="card-title">Bill Gates</h5>
+                  <p class="card-text interlineado">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus nibh dolor, eleifend at dui ut, pretium semper mi. 
+                    Mauris laoreet vel nisl eget molestie. Maecenas purus magna, 
+                    venenatis vel tellus eget, accumsan commodo ante.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
     </div>
+
 
     <div id="fechaLugar" class="entrar">
       <div class="card text-white bg-dark card mb-3"">
