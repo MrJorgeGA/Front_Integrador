@@ -16,3 +16,9 @@
     padding-top: 6rem; 
     margin-top: -5rem;
 }
+
+.carrusel {
+    max-height: 865px; 
+    object-fit: cover; 
+    min-height: 320px;
+}
