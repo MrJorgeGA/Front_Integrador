@@ -39,3 +39,21 @@
             display: none;
         }
     }
+    @media (min-width: 992px) {
+        .barra-sticky {
+            display: none;
+        }
+        body {
+            padding-top: 88px;
+        }
+    }
+
+.botones {
+    background-color: #91c74d;
+    color: #424242;
+}
+.botones:hover {
+    background-color: #6B943A;
+    color: #FFFFFF;
+    border-color: #6B943A;
+}
